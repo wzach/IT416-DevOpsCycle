@@ -1,11 +1,12 @@
-def openASCII(path):
-    f = open(path, 'r')
-    raw = f.read()
-    f.close
-    return f
+# Title: Main
+# Date: 2018-04-29
+# Author: Zachary Welk
+# Description: Main function file for IT 416 Dev Ops Project
+
+import asciiArt
 
 def main():
-    raw = openASCII(b"Pikachu.ascii")
+    raw = asciiArt.openASCII(b"Pikachu.ascii")
     print(raw)
 
 main()
