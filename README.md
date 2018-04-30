@@ -1,2 +1,2 @@
-# IT416-DevOpsCycle
-Repo for KU IT 416 Dev Ops Cycle project
+# IT416-DevOpsCycle - ASCII Art
+Repo for KU IT 416 Dev Ops Cycle project; Program is a tool to take input from a command line or .txt file and turn it into a .ascii file. This format (.ascii) stores the ASCII art as a series of nested arrays and dictionaries. This is used to represent multiple sequential characters or patterns of characters. This essentially compresses the ASCII art and allows the storage of much larger ASCII art images with less disk space
