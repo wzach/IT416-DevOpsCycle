@@ -6,7 +6,7 @@
 import asciiArt
 
 def main():
-    raw = asciiArt.openASCII(b"Pikachu.ascii")
+    raw = asciiArt.openTXT(b"Pikachu.ascii")
     print(raw)
 
 main()

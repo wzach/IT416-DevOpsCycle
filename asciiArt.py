@@ -3,10 +3,10 @@
 # Author: Zachary Welk
 # Description: Imports, exports, and displays ASCII art
 
-def openASCII(path):
-    if type(path) != type(""):
-        raise TypeError("Path must be a string")
+def openTXT(path):
+    #if type(path) != type(b""):
+    #    raise TypeError("Path must be a string")
     f = open(path, 'r')
     raw = f.read()
-    f.close
+    f.close()
     return raw
